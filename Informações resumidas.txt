@@ -1,0 +1,31 @@
+GIT bash
+
+Tem sempre que usar GIT antes do comando
+
+git config --global user.name "nome": define o nickname do usuário master.
+
+git config --global user.email "usuário@gmail.com": define o email do usuário master.
+
+git init: inicia um diretório oculto chamado ".git", somente assim podemos trabalhar na pasta. Usado durante a configuração inicial de um novo repositório.
+
+git status: saber se o arquivo está consoante com o github.
+
+git add: adicionar arquivos no COMMIT.
+	COMMIT: caixa onde estão todos os arquivos, podem haver mais commits dentro.
+	TREE: onde ficam armazenados os commits, podem haver mais trees dentro.
+		git add *: add todos os arquivos.
+		git add nome_do_arquivo: apenas o arquivo citado.
+
+git commit - m "Descrição do commit criado": cria o commit para poder enviar para o github.
+
+git push origin master: empurra o commit para o github (master - padrão de instalação do GIT).
+
+git pull origin master: puxa o commit para o github dentro da pasta específica.
+
+git clone LINK_HTTPS: clona o git do usuário para sua máquina.
+
+ls: mostra os diretórios da pasta.
+
+ls -a: mostra os diretórios ocultos da pasta.
+
+git remote -v: mostra para onde os repositórios remotos estão apontados.
